@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40725" started-at="2022-05-24T06:46:24 MESZ" finished-at="2022-05-24T06:47:05 MESZ">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="20609" started-at="2022-05-24T06:46:24 MESZ" finished-at="2022-05-24T06:46:44 MESZ">
+      <class name="piSoftwares.peak.modulewise.WebMapPage">
+        <test-method status="PASS" signature="testWebMapFilterOptions()[pri:0, instance:piSoftwares.peak.modulewise.WebMapPage@4062d]" name="testWebMapFilterOptions" duration-ms="5409" started-at="2022-05-24T06:46:39 MESZ" depends-on-methods="piTestFramework.LoginPage.provideLoggedInApplicationInstance" finished-at="2022-05-24T06:46:44 MESZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebMapFilterOptions -->
+      </class> <!-- piSoftwares.peak.modulewise.WebMapPage -->
+      <class name="piTestFramework.LoginPage">
+        <test-method status="PASS" signature="createSession(java.lang.String)[pri:0, instance:piTestFramework.LoginPage@10a87b3]" name="createSession" is-config="true" duration-ms="2543" started-at="2022-05-24T06:46:24 MESZ" finished-at="2022-05-24T06:46:26 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\vv.karumanassery\\Desktop\\PI Softwares\\Peak\\Staging\\13.05.2022 (1.3.0)\\app\\Peak.jar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSession -->
+        <test-method status="PASS" signature="provideLoggedInApplicationInstance(java.lang.String,java.lang.String)[pri:0, instance:piTestFramework.LoginPage@10a87b3]" name="provideLoggedInApplicationInstance" duration-ms="12607" started-at="2022-05-24T06:46:26 MESZ" data-provider="loginDataProvider" finished-at="2022-05-24T06:46:39 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vv.karumanassery]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Januar1123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideLoggedInApplicationInstance -->
+      </class> <!-- piTestFramework.LoginPage -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="20094" started-at="2022-05-24T06:46:44 MESZ" finished-at="2022-05-24T06:47:05 MESZ">
+      <class name="piSoftwares.peak.modulewise.WebMapPage">
+        <test-method status="PASS" signature="testWebMapFilterOptions()[pri:0, instance:piSoftwares.peak.modulewise.WebMapPage@15bfd87]" name="testWebMapFilterOptions" duration-ms="5473" started-at="2022-05-24T06:46:59 MESZ" depends-on-methods="piTestFramework.LoginPage.provideLoggedInApplicationInstance" finished-at="2022-05-24T06:47:05 MESZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebMapFilterOptions -->
+      </class> <!-- piSoftwares.peak.modulewise.WebMapPage -->
+      <class name="piTestFramework.LoginPage">
+        <test-method status="PASS" signature="createSession(java.lang.String)[pri:0, instance:piTestFramework.LoginPage@27c60c]" name="createSession" is-config="true" duration-ms="2038" started-at="2022-05-24T06:46:44 MESZ" finished-at="2022-05-24T06:46:46 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\vv.karumanassery\\Desktop\\PI Softwares\\Peak\\Staging\\20.05.2022 (rc 3 1.3.0)\\Peak.jar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSession -->
+        <test-method status="PASS" signature="provideLoggedInApplicationInstance(java.lang.String,java.lang.String)[pri:0, instance:piTestFramework.LoginPage@27c60c]" name="provideLoggedInApplicationInstance" duration-ms="12577" started-at="2022-05-24T06:46:46 MESZ" data-provider="loginDataProvider" finished-at="2022-05-24T06:46:59 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vv.karumanassery]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Januar1123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideLoggedInApplicationInstance -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:piTestFramework.LoginPage@27c60c]" name="closeSession" is-config="true" duration-ms="16566" started-at="2022-05-24T06:47:05 MESZ" finished-at="2022-05-24T06:47:21 MESZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- piTestFramework.LoginPage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
